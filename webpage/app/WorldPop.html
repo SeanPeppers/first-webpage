@@ -1,0 +1,88 @@
+<link rel="shortcut icon" type="image/png" href="faviconlogo.png"/>
+<h2 style="text-align:center;">&#10148; Hover over the dots to see the population of the continet</h2>
+
+<map name="continents_map">
+
+ <div class="dropdown">
+   <span><area shape="circle" coords="70,70,10" href="#north_america"></span>
+     <div class="dropdown-content">
+    <p>587,615,976</p>
+  </div>
+</div>
+
+ <div class="dropdown">
+   <span><area shape="circle" coords="133,185,10" href="#south_america"></span>
+     <div class="dropdown-content">
+    <p>428,240,515</p>
+  </div>
+</div>
+
+ <div class="dropdown">
+   <span><area shape="circle" coords="270,137,10" href="#africa"></span>
+     <div class="dropdown-content">
+    <p>1,287,920,518</p>
+  </div>
+</div>
+
+ <div class="dropdown">
+   <span><area shape="circle" coords="292,44,10" href="#europe"></span>
+     <div class="dropdown-content">
+    <p>742,648,010</p>
+  </div>
+</div>
+
+ <div class="dropdown">
+   <span><area shape="circle" coords="469,201,10" href="#australia"></span>
+     <div class="dropdown-content">
+    <p>41,261,212</p>
+  </div>
+</div>
+
+ <div class="dropdown">
+   <span><area shape="circle" coords="374,65,10" href="#asia"></span>
+     <div class="dropdown-content">
+    <p>4,545,133,094</p>
+  </div>
+</div>
+
+<div class="dropdown">
+   <span><area shape="circle" coords="340,267,10" href="#antartica"></span>
+     <div class="dropdown-content">
+    <p>1000~4000</p>
+  </div>
+</div>
+
+</map>
+
+<figure style="text-align:center;">
+    <img usemap="#continents_map" src=https://bit.ly/2bgFrvL width="600px" />
+    <figcaption>World Map</figcaption>
+</figure>
+
+<p>this information was found off of <a href="http://www.worldometers.info/geography/7-continents/" target="_blank"> worldmeters</a> which is up to date as of 2018</p>
+
+<style>
+p {
+	text-align: center;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
