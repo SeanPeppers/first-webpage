@@ -193,64 +193,186 @@ nav #menu li a {
 }
 p {
 	color: #fff;
-	font-size: 20px
-	font-family: "Poppins"
+	font-size: 20px font-family: "Poppins"
 }
-.m {
+.c2 p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: "Poppins";
+}
+.i1 {
 	position: absolute;
-    top: 100%;
-	left: 10%;
-	height: 80%;
-	width: 80%;
+	top: 8%;
+	left: 15%;
 }
-/*img {
-	height: 5%;
-	width: 5%;
-	float: left;
+.i2 {
+	position: absolute;
+	top: 65%;
+	left: 15%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.i3 {
+	position: absolute;
+	top: 122%;
+	left: 15%;
+}
+.i4 {
+	position: absolute;
+	top: 179%;
+	left: 15%;
+}
+@media(min-width: 768px) {
+	.t1 {
+		position: right;
+		top: -60%;
+		right: 15%;
+		padding-right: 10%;
+		padding-left: 60%;
+		padding-top: 15%;
+	}
+	.t2 {
+		position: right;
+		top: 85%;
+		right: 15%;
+		padding-right: 10%;
+		padding-left: 60%;
+		padding-top: 19%;
+	}
+	.t3 {
+		position: right;
+		top: 142%;
+		right: 15%;
+		padding-right: 10%;
+		padding-left: 60%;
+		padding-top: 15%;
+	}
+	.t4 {
+		position: right;
+		top: 196%;
+		right: 15%;
+		padding-right: 10%;
+		padding-left: 60%;
+		padding-top: 20%;
+	}
+	.i1 {
+		position: absolute;
+		top: 15%;
+		left: 15%;
+	}
+	.i2 {
+		position: absolute;
+		top: 75%;
+		left: 15%;
+	}
+	.i3 {
+		position: absolute;
+		top: 115%;
+		left: 15%;
+	}
+	.i4 {
+		position: absolute;
+		top: 157%;
+		left: 15%;
+	}
+}
+img {
+	top: 50%;
+	width: 30%;
+	float: center;
+	margin: 1.66%
+}
+@media(max-width: 768px) {
+	.i1 {
+		position: absolute;
+		top: 8%;
+		left: 15%;
+	}
+	.i2 {
+		position: absolute;
+		top: 65%;
+		left: 15%;
+	}
+	.i3 {
+		position: absolute;
+		top: 122%;
+		left: 15%;
+	}
+	.i4 {
+		position: absolute;
+		top: 179%;
+		left: 15%;
+	}
+	img {
+		top: 70%;
+		width: 50%;
+		float: center;
+		margin: 1.66%
+	}
+	.fc {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-content: space-between;
+		align-items: center;
+	}
+	.fi1 {
+		width: 300px;
+		height: 250px;
+		position: relative;
+		padding-left: 15%;
+		margin-left: 10%;
+	}
+	.fi2 {
+		width: 300px;
+		height: 250px;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: -15%;
+	}
+	.fi3 {
+		width: 300px;
+		height: 250px;
+		position: relative;
+		padding-left: 20%;
+		margin-left: 10%;
+		margin-top: -70%;
+	}
+	.fi4 {
+		width: 300px;
+		height: 250px;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 10%;
+	}
+	.fi5 {
+		width: 300px;
+		height: 250px;
+		position: relative;
+		padding-left: 20%;
+		margin-left: 10%;
+		margin-top: -90%;
+	}
+	.fi6 {
+		width: 300px;
+		height: 250px;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 50%;
+	}
+	.fi7 {
+		width: 300px;
+		height: 250px;
+		position: relative;
+		padding-left: 20%;
+		margin-left: 10%;
+		margin-top: -130%;
+	}
+	.fi8 {
+		width: 300px;
+		height: 250px;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 120%;
+	}
+}
