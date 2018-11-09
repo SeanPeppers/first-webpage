@@ -64,7 +64,7 @@ body {
 	font-size: 40px;
 }
 nav {
-	width: 80%;
+	width: 100%;
 	background: #000;
 	height: 70px;
 	position: static;
@@ -282,110 +282,158 @@ img {
 	margin: 1.66%
 }
 @media(max-width: 768px) {
+/*
 	.i1 {
 		position: absolute;
-		top: 8%;
-		left: 15%;
+		left: 23%;
+		top: 15%;
 	}
 	.i2 {
 		position: absolute;
-		top: 65%;
-		left: 15%;
+		left: 20%;
 	}
 	.i3 {
 		position: absolute;
-		top: 122%;
-		left: 15%;
+		left: 23%;
 	}
 	.i4 {
 		position: absolute;
-		top: 179%;
-		left: 15%;
-	}
+		left: 23%;
+	}*/
+.c2 p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 200;
+	font-family: "Poppins";
+}
 	img {
 		top: 70%;
 		width: 50%;
 		float: center;
-		margin: 1.66%
+		margin-left: 10%;
 	}
 	.fc {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
 		justify-content: center;
-		align-content: space-between;
+		align-content: center;
 		align-items: center;
 	}
 	.fi1 {
-		right: 5%;
+		
+		position: absolute;
 		width: 300px;
 		height: 250px;
-		position: relative;
-		padding-left: 15%;
-		margin-left: 10%;
+		margin-bottom: -15%;
 	}
 	.fi2 {
-		right: 5%;
 		width: 300px;
 		height: 250px;
-		position: relative;
-		margin-right: 10%;
-		margin-left: 10%;
-		margin-top: -15%;
+		margin-top: 65%;
 	}
 	.fi3 {
-		right: 5%;
+		position: absolute;
 		width: 300px;
 		height: 250px;
-		position: relative;
-		padding-left: 20%;
+		margin-top: -50%;
+	}
+	.fi4 {
+		width: 300px;
+		height: 250px;
+		margin-top: 30%;
+	}
+	.fi5 {
+		position: absolute;
+		width: 300px;
+		height: 250px;
+		margin-top: -80%;
+	}
+	.fi6 {
+		width: 300px;
+		height: 250px;
+		margin-top: 35%;
+		margin-left: 2%;
+	}
+	.fi7 {
+		position: absolute;
+		width: 300px;
+		height: 250px;
+		margin-top: -115%;
+	}
+	.fi8 {
+		width: 300px;
+		height: 250px;
+		margin-top: 60%;
+	}
+}
+
+
+@media(max-width: 380px) {
+.c2 p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 200;
+	font-family: "Poppins";
+}
+	img {
+		top: 70%;
+		width: 50%;
+		float: center;
 		margin-left: 10%;
+	}
+	.fc {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+	.fi1 {
+		
+		position: absolute;
+		width: 300px;
+		height: 250px;
+		margin-bottom: -15%;
+	}
+	.fi2 {
+		width: 300px;
+		height: 250px;
+		margin-top: 65%;
+	}
+	.fi3 {
+		position: absolute;
+		width: 300px;
+		height: 250px;
 		margin-top: -70%;
 	}
 	.fi4 {
-		right: 5%;
 		width: 300px;
 		height: 250px;
-		position: relative;
-		margin-right: 10%;
-		margin-left: 10%;
-		margin-top: 10%;
+		margin-top: 20%;
 	}
 	.fi5 {
-		right: 5%;
+		position: absolute;
 		width: 300px;
 		height: 250px;
-		position: relative;
-		padding-left: 20%;
-		margin-left: 10%;
 		margin-top: -100%;
 	}
 	.fi6 {
-		right: 5%;
 		width: 300px;
 		height: 250px;
-		position: relative;
-		margin-right: 10%;
-		margin-left: 10%;
-		margin-top: 50%;
+		margin-top: 35%;
+		margin-left: 2%;
 	}
 	.fi7 {
-		right: 5%;
+		position: absolute;
 		width: 300px;
 		height: 250px;
-		position: relative;
-		padding-left: 20%;
-		margin-left: 10%;
-		margin-top: -145%;
+		margin-top: -135%;
 	}
 	.fi8 {
-		right: 5%;
 		width: 300px;
 		height: 250px;
-		position: relative;
-		margin-right: 10%;
-		margin-left: 10%;
-		margin-top: 120%;
-		padding-bottom: 10%;
+		margin-top: 70%;
 	}
-}
+
